@@ -9,6 +9,8 @@ const doLog = console.log;
 
 var key = fs.readFileSync(__dirname + '/certs/device.key');
 var cert = fs.readFileSync(__dirname + '/certs/192.168.1.106.crt');
+// var key = fs.readFileSync(__dirname + '/certs/atsnet.key');
+// var cert = fs.readFileSync(__dirname + '/certs/atsnet.crt');
 
 // doLog(key, cert);
 
